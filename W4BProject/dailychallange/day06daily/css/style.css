@@ -1,0 +1,104 @@
+
+body{
+    background:linear-gradient(to-right, rgba)(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url("..//img")
+
+}
+
+
+
+nav{
+    background-color: #000;
+    height: 70px;
+    width: 100%;
+    position: fixed;
+}
+.logo img{
+    float: left;
+    margin-left: 3%;
+    margin-top: 5px;
+}
+.nav-ul{
+    list-style-type: none;
+    margin: 0;
+    float: right;
+   
+}
+.nav-li{
+    height: 70px;
+    display: inline-block;
+    font-size: 25px;
+    color: cadetblue;
+    line-height:60px;
+    padding:0 40px;
+    margin-top: 0%;
+
+}
+nav li:hover{
+    background-color: aquamarine;
+    color: #000;
+    transition: .5s;
+}
+nav li:active{
+    background-color: blue;
+    color: #fff;
+    transition: .5s;
+}
+
+section{
+    position:relative;
+    top: 35%;
+    width: 100%;
+    z-index: -1;
+}
+h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+h2{
+    font-size: 25px;
+    color: #fff;
+    text-align: center;
+    width: 30%;
+    position: relative;
+    left: 35%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+.banner-section{
+    background-color: #000;
+    position:absolute;
+    text-align: center;
+    top: 80%;
+}
+.banner-section h1{
+    color: #fff;
+}
+.banner-section a button{
+    background-color:green
+    border: 3px solid #fff;
+    color: #fff;
+    margin-bottom: 100px;
+    height: 50px;
+    width: 150px;
+}
+.banner-section a button:visited{
+    color: rgb(27, 204, 121);
+    text-decoration: underline;
+}
+.banner-section a button:hover{
+    background-color: #fff;
+    border: 3px solid green;
+    color: rgb(165, 53, 105);
+    transition: .5s;
+}
+.banner-section a button:active{
+    background-color: lightcoral;
+    border: 3px solid #fff;
+    color: #000;
+    transition: .5s;
+}

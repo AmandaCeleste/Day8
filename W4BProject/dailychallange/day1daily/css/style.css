@@ -1,0 +1,10 @@
+.box{ width: 100px;
+    height: 100px;
+    float: left;
+    background-color: purple;
+
+    }
+.hidden{
+    visibility: hidden;
+
+}

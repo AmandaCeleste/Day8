@@ -1,0 +1,61 @@
+body{
+    margin: 0
+    padding 0;
+    background-color: bisque;
+   
+}
+.border{
+    border: 5px solid #000;
+    color: steelblue;
+    text-align: center;
+    }
+h1,h2,h3,h4,h5,h6{
+    font-size: 30px;
+}
+header{
+    width: 100%;
+    height: 75px;
+}
+nav{
+    width: 100%;
+    height: 60px;
+    
+}
+aside{
+    width: 45%;
+    height: 55%;
+    float: right;
+    
+}
+section{
+    width: 50%;
+    height: 25%;
+    float: left;
+    padding: 25px;
+}
+section button{
+    width: 150px;
+    height: 50px;
+    background-color: darkgray;
+    border-radius: 100%;
+    color: cornsilk; 
+}
+section button :hover{
+    background-color: darkseagreen;
+    color: floralwhite;
+}
+section button :active{
+    background-color: lightcyan;
+    color: lightgray;
+
+}
+article{
+    width: 50%;
+    height: 29%;
+    float: left;
+}
+footer{
+    width: 100%;
+    height: 20%;
+    clear: both;
+}
