@@ -1,13 +1,16 @@
 body{
+    background-repeat: no-repeat;
     margin: 0;
     padding: 0;
+    
+
     
     
 }
 nav{
-    width: 100%;
-    height: 60px;
-    position:absolute;
+    width: 60px;
+    height: 100%;
+    position:fixed;
     z-index: 1;
     
 }
@@ -22,6 +25,47 @@ nav ul{
 nav ul li{
     float: right;
     margin: 10px;
-    
+   
 }
+
+.title{
+    width: 0;
+    height: 0;
+
+}
+
+
+
+
+.h2{
+
+}
+
+
+.myButton {
+	background-color:#b7ebc5;
+	border-radius:28px;
+	border:1px solid #b7c7b9;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.myButton:hover {
+	background-color:#5cbf2a;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.youtube-video{
+    position: absolute;
+    padding: 50px;
+    translate: (-50%,0);
+}
+
 
