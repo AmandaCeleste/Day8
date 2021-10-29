@@ -32,20 +32,32 @@ nav ul li{
     margin-top: 150px;
     text-align: center;
     color: antiquewhite;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: solid 5px blanchedalmond;
+}
+.paragraph{
+    text-align: center;
+    color: rgb(228, 130, 94);
+    font-family: fantasy;
+    font-size: large
+
 }
 
 .top-h2{
     text-align: right;
+
 }
 
 .top-nav {
     text-align: center;
-    text-shadow: black;
+    
     
 }
 
 li {
     display: inline-block;
+    font-family: cursive;
+
 
 
 }
@@ -57,7 +69,17 @@ a {
 
 .youtube-video{
     position: absolute;
-    margin: -70px 30%;
-    padding: 50px;
-    translate: (-50%,0);
+    margin: -60x 30%;
+    padding: 80px;
+    translate: (-90%,15);
+    border: 80px;
+    background-color: tomato;
+    height: 120px;
+    width: 200px;
+    
+   
+}
+.youtube-video iframe{
+    margin: -50px -50 ;
+
 }
